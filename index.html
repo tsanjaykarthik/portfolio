@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sanjay Karthik · UI/UX Designer</title>
+<meta name="description" content="Sanjay Karthik Thyagarajan, UI/UX designer in Chennai. Websites and mobile/tablet apps for clients in Switzerland, Italy and the US, from research to design systems and developer handoff.">
+<meta name="theme-color" content="#F3F1EC">
+<meta property="og:title" content="Sanjay Karthik · UI/UX Designer">
+<meta property="og:description" content="UI/UX designer making products that feel clear and work for everyone.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <div class="nav-bar">
+      <a href="#/" class="brand" aria-label="Sanjay Karthik, home">
+        <span class="brand-mark">SK</span>
+        <span class="brand-name">Sanjay Karthik</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#/" data-nav="home">Home</a>
+        <a href="#/work" data-nav="work">Work</a>
+        <a href="#/about" data-nav="about">About</a>
+        <a href="sanjay-karthik-resume.pdf" target="_blank" rel="noopener" class="nav-plain">Resume</a>
+        <a href="#contact" class="nav-cta" data-contact>Let’s talk</a>
+      </div>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+<div class="menu-scrim" aria-hidden="true"></div>
+
+<main id="main" class="wrap">
+  <div id="view"></div>
+
+  <section id="contact" class="contact">
+    <p class="eyebrow eyebrow-dark">Contact</p>
+    <h2 class="contact-title">Hiring a designer? <em>Let’s talk.</em></h2>
+    <div class="contact-actions">
+      <a class="btn btn-light btn-lg" id="mailto" href="#">Email me</a>
+      <button class="btn btn-ghost-dark btn-lg" data-copy>Copy email</button>
+      <a class="btn btn-ghost-dark btn-lg" id="linkedin" target="_blank" rel="noopener" href="#">LinkedIn ↗</a>
+      <a class="btn btn-ghost-dark btn-lg" href="sanjay-karthik-resume.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+    </div>
+    <div class="contact-foot">
+      <span id="contact-line">Chennai, India</span>
+      <span>Available for remote and on-site roles</span>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <span>© <span id="year">2026</span> Sanjay Karthik Thyagarajan</span>
+  <div class="footer-links">
+    <a href="#/">Home</a><a href="#/work">Work</a><a href="#/about">About</a>
+  </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
