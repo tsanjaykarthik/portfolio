@@ -81,8 +81,8 @@ const PROJECTS = [
 const JOBS = [
   { company:'Brain Quest Consultancy and Training', role:'UI/UX Design Intern', dates:'Apr 2026 – Now', place:'Remote', tools:'Wix Studio, Figma, HTML/CSS/JavaScript',
     points:['Design and build production websites for international clients, owning responsive layouts, visual systems, CMS structure, reusable UI and client handover.','Redesigned lunchtimefood.ch, scoring 92 Accessibility and 96 Best Practices on PageSpeed Insights.','Delivered content and legal corrections for a Zurich Airport private-jet charter site under a no-redesign constraint, including four brand-matched HTML legal pages and SVG icon variants.','Use AI tools to research platform limits and explore directions, then verify and manually fix responsive and translation issues before delivery.'] },
-  { company:'MIT Square / INDO-GLOBAL', role:'UI/UX Design Intern', dates:'Oct – Dec 2023', place:'Remote', tools:'Figma, Usability Testing, Design Systems',
-    points:['Designed 20+ accessible Figma screens for an AI-powered voice-chat app.','Ran think-aloud usability sessions with 8 users and refined task flows, reducing task-completion steps by about 30%.','Built a component library of 35+ reusable elements to keep UI consistent and speed up handoff.'] },
+  { company:'MIT Square / INDO-GLOBAL', role:'INDO-GLOBAL Winter Intern', dates:'Oct – Dec 2023', place:'Remote', tools:'Research and Development, Patent Documentation, Basic UI Design',
+    points:['Worked in a team of two on research and development and patent documentation for a Real-Time AI-Based Voice Enhanced Chat Application for Differently Abled People.','Researched and documented the novel features of a web app designed to support communication for differently abled users, through continuous R&D and brainstorming.','Created a basic UI design for the web app to illustrate the concept.'] },
   { company:'PK Innovatives', role:'UI/UX Design Intern', dates:'Mar – Apr 2023', place:'Remote', tools:'Figma, Mobile UI',
     points:['Designed a mobile-first news app with multi-theme and multilingual support, delivering wireframes, a component library, a style guide and an interactive prototype in a four-week sprint.'] },
 ];
@@ -103,7 +103,7 @@ const STATS = [
 ];
 
 const EARLIER = [
-  { org:'MIT Square / INDO-GLOBAL', year:'2023', title:'AI voice-chat app', text:'20+ accessible screens, think-aloud testing with 8 users that cut task steps by about 30%, and a 35+ component library.' },
+  { org:'MIT Square / INDO-GLOBAL', year:'2023', title:'AI voice-chat app (patent project)', text:'Research and development and patent documentation for a voice-enhanced chat web app for differently abled people, with a basic UI design.' },
   { org:'PK Innovatives', year:'2023', title:'Mobile-first news app', text:'Multi-theme, multilingual news app: wireframes, component library, style guide and interactive prototype in a four-week sprint.' },
 ];
 
